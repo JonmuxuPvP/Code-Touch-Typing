@@ -1,0 +1,31 @@
+-===[Code Touch Typing]===-
+A simple web application to pratice touch typing skills with
+different programming languages.
+
+-===[App Description]===-
+The app consists of two textareas, one where the user is given
+a code snippet, while the other one is used to input the same
+code. Once both textareas look identical, the timer will stop
+and statistics will be saved within the browser with cookies.
+
+Due to the fact that these web applications already exist, I want
+to focus on certain code statements. For example, you could
+practice if/else statements or for loops in different programming
+languages. The user will be given pre-generated templates for these 
+statements, but since there are a ton of conventions and code styles,
+the user will be able to generate new templates without replacing
+the default ones. In that way, as the developer, I don't need to think
+of all the conventions in every single programming language: If you
+want curly braces in new line, add them new line. Want to use
+PascalCase, camelCase, snake_case...? Well, you name it!
+
+-===[Architecture]===-
+Now now, the architecture of my webpage will be as the following:
+
+HTML -> Skeleton of the main and only webpage
+CSS -> Decoration and design of my app 
+JavaScript -> App's Functionality, such as timers, code snippets...
+PHP -> Generating cookies and possibly HTML according to different user preferences.
+
+-===[Design]===-
+Check design
